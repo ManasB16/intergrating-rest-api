@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#" id="myform">
+        <label for="itemname" class="form-label" name="itemname">Item Name</label>
+        <input type="text" class="form-control-sm" id="itname" placeholder="Item Name">
+        <label for="description" class="form-label" name="description">Description</label>
+        <input type="text" class="form-control-sm" id="des" placeholder="Description">
+        <label for="price" class="form-label" name="price">Price</label>
+        <input type="number" id="price" class="form-control-sm" placeholder="Price">
+        <label for="quantity" class="form-label" name="quantity">Quantity</label>
+        <input type="number" id="quantity" class="form-control-sm" placeholder="Quantity">
+
+        <input type="submit" id ='btn' class='form-control-sm' value="Add">
+        </form>
+        <ul id="users"></ul>
+    </div>
+    
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
